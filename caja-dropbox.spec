@@ -1,5 +1,5 @@
 # This is needed, because src-url contains branched part of versioning-scheme.
-%global branch 1.16
+%global branch 1.18
 
 Summary: 		Dropbox extension for caja
 Name: 			caja-dropbox
