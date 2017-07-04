@@ -3,8 +3,8 @@
 
 Summary: 		Dropbox extension for caja
 Name: 			caja-dropbox
-Version: 		1.18.0
-Release: 		1%{?dist}
+Version: 		1.19.0
+Release: 		2%{?dist}
 License: 		GPLv2+
 Group: 			User Interface/Desktops
 URL: 			http://git.mate-desktop.org/%{name}
@@ -24,7 +24,7 @@ BuildRequires:  libtool
 BuildRequires:  pygobject2-devel
 BuildRequires:  pygtk2-devel
 
-Requires:       dropbox >= 1:2.10.0
+Requires:       dropbox 
 Requires:       caja-extensions
 Requires:       pygtk2
 
@@ -61,6 +61,10 @@ rm -rf ${RPM_BUILD_ROOT}%{_datadir}
 
 
 %changelog
+
+* Mon Jul 03 2017 David Va <davidva AT tutanota DOT com> - 1.19.0-2
+- Updated to 1.19.0-2
+
 * Thu Jun 29 2017 Wolfgang Ulbrich <fedora@raveit.de> - 1.18.0-1
 - update to 1.18.0 release
 
