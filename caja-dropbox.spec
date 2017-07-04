@@ -13,11 +13,7 @@ Source0: 		http://pub.mate-desktop.org/releases/%{branch}/%{name}-%{version}.tar
 ExclusiveArch:  i686 x86_64
 
 BuildRequires:  caja-devel
-%if 0%{?fedora} >= 26
-BuildRequires:  python2-docutils
-%else
 BuildRequires:  python-docutils
-%endif
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  libtool
