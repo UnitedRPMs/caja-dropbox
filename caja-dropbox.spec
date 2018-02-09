@@ -3,7 +3,7 @@
 
 Summary: 		Dropbox extension for caja
 Name: 			caja-dropbox
-Version: 		1.18.0
+Version: 		1.20.0
 Release: 		2%{?dist}
 License: 		GPLv2+
 Group: 			User Interface/Desktops
@@ -57,6 +57,9 @@ rm -rf ${RPM_BUILD_ROOT}%{_datadir}
 
 
 %changelog
+
+* Fri Feb 09 2018 David Va <davidva AT tutanota DOT com> - 1.20.0-2
+- Updated to 1.20.0
 
 * Mon Jul 03 2017 David Va <davidva AT tutanota DOT com> - 1.18.0-2
 - Changed Requires of dropbox, UnitedRPMs does not provides a fool epoch tag of dropbox
