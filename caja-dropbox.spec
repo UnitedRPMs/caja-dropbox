@@ -1,5 +1,5 @@
 # This is needed, because src-url contains branched part of versioning-scheme.
-%global branch 1.20
+%global branch 1.22
 
 Summary: 		Dropbox extension for caja
 Name: 			caja-dropbox
@@ -8,7 +8,7 @@ Release: 		7%{?dist}
 License: 		GPLv2+
 Group: 			User Interface/Desktops
 URL: 			http://git.mate-desktop.org/%{name}
-Source0: 		http://pub.mate-desktop.org/releases/%{branch}/%{name}-%{version}.tar.xz
+Source0: 		http://pub.mate-desktop.org/releases/%{branch}/%{name}-%{version}.tar.xz 
 
 ExclusiveArch:  i686 x86_64
 
