@@ -13,12 +13,12 @@ Source0: 		http://pub.mate-desktop.org/releases/%{branch}/%{name}-%{version}.tar
 ExclusiveArch:  i686 x86_64
 
 BuildRequires:  caja-devel
-BuildRequires:  python-docutils
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  libtool
-BuildRequires:  pygobject2-devel
+BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  pygtk2-devel
+BuildRequires:	python3-docutils
 
 Requires:       dropbox 
 Requires:       caja-extensions
