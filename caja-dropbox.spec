@@ -3,7 +3,7 @@
 
 Summary: 		Dropbox extension for caja
 Name: 			caja-dropbox
-Version: 		1.22.0
+Version: 		1.22.1
 Release: 		7%{?dist}
 License: 		GPLv2+
 Group: 			User Interface/Desktops
@@ -57,6 +57,9 @@ rm -rf ${RPM_BUILD_ROOT}%{_datadir}
 
 
 %changelog
+
+* Thu Apr 25 2019 David Va <davidva AT tutanota DOT com> - 1.22.1-7
+- Updated to 1.22.1
 
 * Sat Apr 06 2019 David Va <davidva AT tutanota DOT com> - 1.22.0-7
 - Updated to 1.22.0
