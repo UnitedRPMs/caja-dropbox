@@ -1,12 +1,27 @@
+#
+# spec file for package caja-dropbox
+#
+# Copyright (c) 2020 UnitedRPMs.
+#
+# All modifications and additions to the file contributed by third parties
+# remain the property of their copyright owners, unless otherwise agreed
+# upon. The license for this file, and modifications and additions to the
+# file, is the same license as for the pristine package itself (unless the
+# license for the pristine package is not an Open Source License, in which
+# case the license is the MIT License). An "Open Source License" is a
+# license that conforms to the Open Source Definition (Version 1.9)
+# published by the Open Source Initiative.
+#
+
 # This is needed, because src-url contains branched part of versioning-scheme.
-%global branch 1.22
+%global branch 1.24
 
 Summary: 		Dropbox extension for caja
 Name: 			caja-dropbox
-Version: 		1.22.1
+Version: 		1.24.0
 Release: 		7%{?dist}
 License: 		GPLv2+
-Group: 			User Interface/Desktops
+Group:			User Interface/Desktops
 URL: 			http://git.mate-desktop.org/%{name}
 Source0: 		http://pub.mate-desktop.org/releases/%{branch}/%{name}-%{version}.tar.xz 
 
@@ -57,6 +72,9 @@ rm -rf ${RPM_BUILD_ROOT}%{_datadir}
 
 
 %changelog
+
+* Tue Feb 11 2020 David Va <davidva AT tuta DOT io> - 1.24.0-7
+- Updated to 1.24.0
 
 * Thu Apr 25 2019 David Va <davidva AT tutanota DOT com> - 1.22.1-7
 - Updated to 1.22.1
